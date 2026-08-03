@@ -171,3 +171,201 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Inteligência Artificial e o Consumo de Água</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f0f7f9;
+            color: #2c3e50;
+        }
+        header {
+            background-color: #0284c7;
+            color: white;
+            text-align: center;
+            padding: 2.5rem 1rem;
+            border-radius: 10px;
+            margin-bottom: 25px;
+        }
+        header h1 {
+            margin: 0 0 10px 0;
+            font-size: 2.2rem;
+        }
+        header p {
+            margin: 0;
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        main {
+            max-width: 850px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        }
+        h2 {
+            color: #0284c7;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
+            margin-top: 35px;
+        }
+        h2:first-of-type {
+            margin-top: 0;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stat-card {
+            background-color: #e0f2fe;
+            border-left: 4px solid #0284c7;
+            padding: 15px;
+            border-radius: 0 8px 8px 0;
+        }
+        .stat-card h3 {
+            margin-top: 0;
+            color: #0369a1;
+            font-size: 1.1rem;
+        }
+        .stat-card p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+        .step {
+            background-color: #f8fafc;
+            border-left: 4px solid #0284c7;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 0 8px 8px 0;
+        }
+        .step h3 {
+            margin-top: 0;
+            color: #0369a1;
+        }
+        .two-types {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .type-card {
+            flex: 1;
+            min-width: 250px;
+            background: #f1f5f9;
+            padding: 18px;
+            border-radius: 8px;
+            border-top: 3px solid #0284c7;
+        }
+        .type-card h3 {
+            margin-top: 0;
+            color: #0f172a;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 15px;
+            font-size: 0.9em;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>A Inteligência Artificial Tem Sede</h1>
+        <p>Dados, estatísticas e o funcionamento do consumo de água pelos Data Centers de IA</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>📊 Principais Dados e Estatísticas</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <h3>💬 20 a 50 Perguntas</h3>
+                    <p>Uma conversa simples com uma IA gerativa consome cerca de <strong>500 ml de água</strong>.</p>
+                </div>
+                <div class="stat-card">
+                    <h3>💻 Treinamento de Modelos</h3>
+                    <p>O treinamento de um grande modelo consome cerca de <strong>700.000 litros</strong> diretamente (e até 5,4 milhões indiretamente).</p>
+                </div>
+                <div class="stat-card">
+                    <h3>🌍 Consumo Anual</h3>
+                    <p>Data centers de IA usam mais de <strong>760 bilhões de litros de água por ano</strong>, superando o consumo de água engarrafada.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>⚙️ Como Funciona o Consumo (Passo a Passo)</h2>
+            
+            <div class="step">
+                <h3>1. Processamento e Geração de Calor</h3>
+                <p>Quando você envia uma pergunta ou gera uma imagem via IA, milhares de placas de vídeo (GPUs) nos Data Centers trabalham simultaneamente, gerando calor extremo nos processadores.</p>
+            </div>
+
+            <div class="step">
+                <h3>2. Troca de Calor Térmica</h3>
+                <p>A água gelada é bombeada em tubulações sobre ou próximas aos chips. A água absorve o calor, evitando o superaquecimento dos computadores.</p>
+            </div>
+
+            <div class="step">
+                <h3>3. Evaporação na Torre de Resfriamento</h3>
+                <p>A água aquecida vai para as torres de resfriamento, onde parte dela é borrifada e <strong>evapora</strong>, liberando o calor na atmosfera e resfriando o restante do líquido.</p>
+            </div>
+
+            <div class="step">
+                <h3>4. Purificação e Reposição Contínua</h3>
+                <p>Como parte da água evaporou, o sistema precisa ser continuamente reabastecido com <strong>água potável e purificada</strong> para evitar o acúmulo de minerais e corrosão nos tubos.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>💧 Tipos de Pegada Hídrica</h2>
+            <div class="two-types">
+                <div class="type-card">
+                    <h3>💧 Consumo Direto</h3>
+                    <p>Ocorre no próprio Data Center, onde a água potável evapora diretamente para resfriar os servidores e chips de IA.</p>
+                </div>
+                <div class="type-card">
+                    <h3>⚡ Consumo Indireto</h3>
+                    <p>Ocorre nas usinas geradoras de energia (hidrelétricas e termoelétricas) necessárias para alimentar os Data Centers com eletricidade.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>🌍 Desafios Ambientais e Soluções</h2>
+            <ul>
+                <li><strong>Escassez Local:</strong> Muitos Data Centers ficam em áreas com estresse hídrico, gerando conflitos com comunidades locais.</li>
+                <li><strong>Resfriamento em Circuito Fechado:</strong> Sistemas que reciclam a água sem permitir a evaporação contínua.</li>
+                <li><strong>Refrigeração por Imersão:</strong> Uso de fluidos não condutores para resfriar chips sem necessidade de água direta.</li>
+                <li><strong>Migração para Climas Frios:</strong> Construção de infraestruturas em regiões de baixa temperatura para aproveitar o ar gelado natural.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Informativo Técnico e Ambiental sobre Inteligência Artificial</p>
+    </footer>
+
+</body>
+</html>
