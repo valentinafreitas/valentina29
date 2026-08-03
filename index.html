@@ -56,18 +56,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IA e o Consumo de Água</title>
+    <title>Como Funciona a "Sede" da IA?</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 20px;
-            background-color: #f4f9fc;
-            color: #333;
+            background-color: #f0f7f9;
+            color: #2c3e50;
         }
         header {
-            background-color: #0077b6;
+            background-color: #0284c7;
             color: white;
             text-align: center;
             padding: 2rem 1rem;
@@ -77,18 +77,97 @@
             max-width: 800px;
             margin: 20px auto;
             background: white;
-            padding: 20px;
+            padding: 25px;
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
         }
         h2 {
-            color: #0077b6;
-            border-bottom: 2px solid #0077b6;
-            padding-bottom: 5px;
+            color: #0284c7;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 8px;
         }
-        ul {
-            padding-left: 20px;
+        .step {
+            background-color: #f8fafc;
+            border-left: 4px solid #0284c7;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 0 8px 8px 0;
         }
-        li {
-            margin-bottom: 10px;
+        .step h3 {
+            margin-top: 0;
+            color: #0369a1;
         }
+        .two-types {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .type-card {
+            flex: 1;
+            min-width: 250px;
+            background: #e0f2fe;
+            padding: 15px;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 0.9em;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Como Funciona o Consumo de Água pela IA?</h1>
+        <p>O ciclo do processamento de dados ao resfriamento térmico</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>O Processo Passo a Passo</h2>
+            
+            <div class="step">
+                <h3>1. Processamento e Geração de Calor</h3>
+                <p>Quando você envia uma pergunta ou gera uma imagem via IA, milhares de placas de vídeo (GPUs) nos Data Centers trabalham simultaneamente. Esse esforço computacional gera calor extremo nos chips.</p>
+            </div>
+
+            <div class="step">
+                <h3>2. Troca de Calor Térmica</h3>
+                <p>A água gelada é bombeada em tubulações que passam bem perto ou sobre os processadores. A água absorve o calor dos chips, impedindo que os computadores queimem ou diminuam o desempenho.</p>
+            </div>
+
+            <div class="step">
+                <h3>3. Evaporação na Torre de Resfriamento</h3>
+                <p>A água, agora quente, vai para as torres de resfriamento. Parte dela é borrifada contra o ar quente e **evapora**, liberando o calor para a atmosfera e resfriando o restante da água para reiniciar o ciclo.</p>
+            </div>
+
+            <div class="step">
+                <h3>4. Purificação e Reposição Contínua</h3>
+                <p>Como parte da água evaporou, o sistema precisa ser constantemente reabastecido com **água limpa e potável**. Água com minerais ou sujeira não pode ser usada, pois entupiria e corroeria os tubos do Data Center.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Os Dois Tipos de Pegada Hídrica</h2>
+            <div class="two-types">
+                <div class="type-card">
+                    <h3>💧 Consumo Direto</h3>
+                    <p>Ocorre no próprio Data Center, onde a água é fisicamente evaporada para resfriar os racks de servidores.</p>
+                </div>
+                <div class="type-card">
+                    <h3>⚡ Consumo Indireto</h3>
+                    <p>Ocorre nas usinas elétricas (termoelétricas ou hidrelétricas) que queimam água/vapor para gerar a imensa eletricidade usada pelos servidores.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Explicativo Técnico • Como Funciona a Tecnologia</p>
+    </footer>
+
+</body>
+</html>
